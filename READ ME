@@ -1,0 +1,29 @@
+Travel assitance API
+
+Steps to run the program:
+- Build da package using maven
+- run the built package using java cmd
+
+Exposed APIn test cases:
+Weather API
+URL: (GET) http://localhost:8080/weather/city?latitude=33.44&longitude=94.04
+Headers :
+- Content-Type: application/json
+- Authorization: Bearer (token)
+token is on authentication response
+
+Exchenge API
+URL: (GET) http://localhost:8080/exchange/EUR?currency=MZN
+Headers :
+- Content-Type: application/json
+- Authorization: Bearer (token)
+token is on authentication response
+
+Authentication API
+URL: (POST) http://localhost:8080/authentication/authenticate
+Headers :
+- Content-Type: application/json
+Body: { "username": "admin", "password": "admin123"}
+
+
+
